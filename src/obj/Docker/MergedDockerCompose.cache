@@ -1,0 +1,7 @@
+services:
+  projeto:
+    build:
+      context: C:\Projects\git\producer-consumer-kafka
+      dockerfile: Dockerfile
+    image: projeto
+version: '3.4'
